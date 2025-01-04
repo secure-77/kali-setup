@@ -40,3 +40,6 @@ if [[ "$restart_choice" =~ ^[Yy]$ ]]; then
     echo "Networking service is not managed by systemd or not running. Please restart it manually."
   fi
 fi
+
+
+echo "Please restart the system to get rid of any dchp address."

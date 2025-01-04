@@ -4,7 +4,7 @@ set -e
 cd ~
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y arandr arc-theme feh i3blocks i3status i3 i3-wm lxappearance python3-pip rofi picom unclutter cargo papirus-icon-theme imagemagick xrdp seclists feroxbuster golang gobuster rlwrap bloodhound.py neo4j bloodhound crowbar ntpdate xxd numlockx
+sudo apt install -y arandr arc-theme feh i3blocks i3status i3 i3-wm lxappearance python3-pip rofi picom cargo papirus-icon-theme imagemagick xrdp seclists feroxbuster golang gobuster rlwrap bloodhound.py neo4j bloodhound crowbar ntpdate xxd numlockx
 
 
 # Install Google Chrome and gowitness (Screenshot Tool)

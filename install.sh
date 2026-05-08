@@ -39,7 +39,7 @@ cp .fehbg ~/.fehbg
 cp .config/i3/clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
 sudo mkdir -p /usr/share/i3blocks/
 cd /usr/share/i3blocks/
-git clone https://github.com/vivien/i3blocks-contrib
+sudo git clone https://github.com/vivien/i3blocks-contrib
 cd ~/kali-setup
 chmod +x ~/.config/i3/clipboard_fix.sh
 cp .config/.xsessionrc ~/.xsessionrc

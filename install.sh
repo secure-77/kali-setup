@@ -4,7 +4,7 @@ set -e
 cd ~
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y arandr arc-theme feh i3blocks i3status i3 i3-wm lxappearance python3-pip rofi picom cargo papirus-icon-theme imagemagick xrdp seclists feroxbuster golang gobuster rlwrap bloodhound.py neo4j bloodhound crowbar xxd numlockx
+sudo apt install -y arandr arc-theme feh i3blocks i3status i3 i3-wm lxappearance python3-pip rofi picom cargo papirus-icon-theme imagemagick xrdp seclists feroxbuster golang gobuster rlwrap bloodhound.py neo4j bloodhound crowbar xxd numlockx alacritty
 
 
 # Install Google Chrome and gowitness (Screenshot Tool)
@@ -28,7 +28,7 @@ sudo pipx install pyftpdlib
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/picom
 mkdir -p ~/.config/rofi
-mkdir -p ~/.config/qterminal.org
+mkdir -p ~/.config/alacritty
 mkdir -p ~/.wallpaper
 cd kali-setup
 cp .config/i3/config ~/.config/i3/config
@@ -43,7 +43,7 @@ sudo git clone https://github.com/vivien/i3blocks-contrib
 cd ~/kali-setup
 chmod +x ~/.config/i3/clipboard_fix.sh
 cp .config/.xsessionrc ~/.xsessionrc
-cp .config/qterminal.org/qterminal.ini ~/.config/qterminal.org/qterminal.ini
+cp .config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 cp .config/.vimrc ~/.vimrc
 cp cyber.jpg ~/.wallpaper
 sudo cp .config/reconnectwm.sh /etc/xrdp/reconnectwm.sh

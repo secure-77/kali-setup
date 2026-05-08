@@ -1,0 +1,18 @@
+[window]
+opacity = 1
+padding.x = 8
+padding.y = 8
+decorations = "full"
+
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Courier 10 Pitch"
+
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
